@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.maximdoronin.costaccounting.MainActivity">
+    <item
+        android:id="@+id/clear_all"
+        android:orderInCategory="100"
+        android:title="@string/clear_all"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/summary"
+        android:orderInCategory="100"
+        android:title="Summary: "
+        app:showAsAction="never" />
+</menu>
